@@ -1,0 +1,19 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/spec/dummy/log/*.log
+/spec/dummy/node_modules/
+/spec/dummy/yarn-error.log
+/spec/dummy/tmp/
+/tmp/
+
+# rspec failure tracking
+.rspec_status
+
+# appraisal
+gemfiles/*.gemfile.lock
+gemfiles/.bundle/

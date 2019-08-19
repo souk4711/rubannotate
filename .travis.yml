@@ -1,0 +1,18 @@
+---
+sudo: false
+language: ruby
+cache: bundler
+
+services:
+  - postgresql
+
+rvm:
+  - 2.5.5
+  - 2.6.3
+
+gemfile:
+  - gemfiles/rails_5.1.gemfile
+  - gemfiles/rails_5.2.gemfile
+  - gemfiles/rails_6.0.gemfile
+
+before_install: gem install bundler -v 1.17.1
