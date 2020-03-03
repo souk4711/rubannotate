@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Annotate Rails classes with schema.'
   spec.description   = 'Annotate Rails classes with schema.'
-  spec.homepage      = 'https://github.com/s330/rubannotate'
+  spec.homepage      = 'https://github.com/john-doe-330/rubannotate'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set
@@ -22,8 +22,8 @@ Gem::Specification.new do |spec|
     spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
     spec.metadata['homepage_uri'] = spec.homepage
-    spec.metadata['source_code_uri'] = 'https://github.com/s330/rubannotate'
-    spec.metadata['changelog_uri'] = 'https://github.com/s330/rubannotate'
+    spec.metadata['source_code_uri'] = 'https://github.com/john-doe-330/rubannotate'
+    spec.metadata['changelog_uri'] = 'https://github.com/john-doe-330/rubannotate'
   else
     raise 'RubyGems 2.0 or newer is required to protect against ' \
       'public gem pushes.'
